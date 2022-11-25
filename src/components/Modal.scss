@@ -1,5 +1,9 @@
-@media only screen and (min-width: 420px) {
-    article {
-        display:flex;
+@media only screen and (max-width: 480px) {
+    article hgroup div {
+        flex-direction: column;
+    }
+    article hgroup div img {
+        margin-left: auto;
+        margin-right: auto;
     }
   }
