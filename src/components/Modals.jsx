@@ -1,7 +1,7 @@
 export default ({ member, handleClose, handleChange }) => {
   return (
     <dialog id="modal-member" open>
-      <article>
+      <article style={{width: '850px'}}>
         <a href="#close"
           aria-label="Close"
           className="close"
