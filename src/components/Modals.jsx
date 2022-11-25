@@ -1,3 +1,5 @@
+import './Modal.scss';
+
 export default ({ member, handleClose, handleChange }) => {
   return (
     <dialog id="modal-member" open>
